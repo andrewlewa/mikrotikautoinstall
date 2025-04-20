@@ -1,9 +1,9 @@
 #!/bin/bash -e
 
 echo
-echo "=== azadrah.org ==="
-echo "=== https://github.com/azadrahorg ==="
-echo "=== MikroTik 6 Installer ==="
+echo "=== Bandrew hengker ff ==="
+echo "=== https://github.com/andrewlewa==="
+echo "=== MikroTik 6 patch Installer ==="
 echo
 sleep 3
 
