@@ -12,3 +12,8 @@ pptp auto install :
 ```shell
 bash -c "$(curl -L https://raw.githubusercontent.com/andrewlewa/mikrotikautoinstall/refs/heads/main/pptpAutoInstall.sh)"
 ```
+pptp auto install :
+```shell
+bash -c "$(curl -L https://raw.githubusercontent.com/andrewlewa/mikrotikautoinstall/refs/heads/main/auto-install-l2tp.sh)"
+```
+
