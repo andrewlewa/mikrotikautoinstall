@@ -7,7 +7,7 @@ echo "=== MikroTik 6 patch Installer ==="
 echo
 sleep 3
 
-wget https://github.com/elseif/MikroTikPatch/releases/download/6.49.19/chr-6.49.19.img.zip -O chr.img.zip  && \
+wget https://github.com/elseif/MikroTikPatch/releases/download/6.49.17/chr-6.49.17.img.zip -O chr.img.zip  && \
 gunzip -c chr.img.zip > chr.img  && \
 mount -o loop,offset=512 chr.img /mnt && \
 STORAGE=`lsblk | grep disk | cut -d ' ' -f 1 | head -n 1` && \
