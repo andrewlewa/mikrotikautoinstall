@@ -6,7 +6,7 @@ echo "=== https://github.com/andrewlewa==="
 echo "=== MikroTik 7 patch Installer ==="
 echo
 sleep 3
-wget https://github.com/elseif/MikroTikPatch/releases/download/7.20.6/chr-7.20.6.img.zip -O chr.img.zip  && \
+wget https://github.com/elseif/MikroTikPatch/releases/download/7.20.6/chr-7.20.6-legacy-bios.img.zip -O chr.img.zip  && \
 gunzip -c chr.img.zip > chr.img  && \
 STORAGE=`lsblk | grep disk | cut -d ' ' -f 1 | head -n 1` && \
 echo STORAGE is $STORAGE && \
